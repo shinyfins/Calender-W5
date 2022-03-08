@@ -22,19 +22,40 @@
     />
     <link rel="stylesheet" href="Develop/style.css"/>
     <title>Work Day Scheduler</title>
-  </head>
 
+
+  
+
+  <!--MOMENT-->
+
+  <script type = "text/JavaScript" src = "https://momentjs.com/downloads/moment.js"></script>
+    
   <!--HEAD END BODY START-->
+</head>
 
   <body>
+
+    <!--HEADER-->
+
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
-    </header>
-
-    <!--HEADER END-->
   
+
+    
+
+    <!--current time-->
+    <div id= "todaysdate" class="current"></div>
+    <script type ="text/JavaScript">
+      var a = moment().toString();
+      document.getElementById("todaysdate").innerHTML =a;
+    </script>
+
+    </header>
+    
+    <!--HEADER END-->
+
     <!--hour 9<div class="container">-->
     
 <div class="container">
@@ -146,6 +167,6 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
      <script src="javascript.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+   
   </body>
 </html>
