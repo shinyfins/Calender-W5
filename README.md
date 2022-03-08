@@ -8,4 +8,4 @@ Ofcourse we will allow personalization so the user can edit and change for the b
 All the info will be saved in the local storage. 
 
 
-![alt text](assets/SCREENSHOT.png)
+![alt text](Develop/assets/SCREENSHOT.png)
