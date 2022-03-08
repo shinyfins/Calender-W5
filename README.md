@@ -6,3 +6,6 @@ This program will allow the user to choose dates and notes to catalog in the col
 Ofcourse we will allow personalization so the user can edit and change for the busy schedule they have. 
 <br>
 All the info will be saved in the local storage. 
+
+
+![alt text](assets/SCREENSHOT.png)
